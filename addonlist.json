@@ -1,0 +1,247 @@
+{
+    "config" : {
+        "color": {
+            "r": 0,
+            "g": 195,
+            "b": 227
+        },
+        "bottomText": "WEAPON MENU",
+        "position": "topright",
+        "command": "weapons",
+        "hotkey": {
+            "enabled": true,
+            "key": "F11"
+        }
+    },
+    "WEAPON_PARAFAL": {
+        "label": "Imbel ParaFAL",
+        "spawnammo": 250,
+        "attachments": {
+            "Grips": [
+                {
+                    "label": "Grip 1",
+                    "value": "COMPONENT_PARAFAL_GRIP_01"
+                },			
+                {
+                    "label": "Grip 2",
+                    "value": "COMPONENT_PARAFAL_GRIP_02"
+                }							
+            ],				
+            "Carregadores": [
+                {
+                    "label": "Carregador normal",
+                    "value": "COMPONENT_PARAFAL_CLIP_01"
+                }									
+            ],																	
+            "Lunetas": [
+                {
+                   "label": "Luneta",
+                    "value": "COMPONENT_CAMALEAO_LUNETA"
+                },	
+                {
+                    "label": "Luneta 2",
+                    "value": "COMPONENT_PARAFAL_LUNETA_02"
+                },	
+                {
+                    "label": "Red Dot 1",
+                    "value": "COMPONENT_PARAFAL_REDDOT_01"
+                }									
+            ]
+        }
+    },
+    "WEAPON_PT100": {
+        "label": "Taurus PT-100",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_AR10A4": {
+        "label": "Armalite AR10A4",
+        "spawnammo": 250,
+        "attachments": {
+            "Grip": [
+                {
+                    "label": "Grip",
+                    "value": "COMPONENT_AR10_GRIP"
+                }							
+            ],	
+            "Mira": [		
+                {
+                    "label": "Luneta",
+                    "value": "COMPONENT_AR10_LUNETA"
+                },
+                {
+                    "label": "Holo",
+                    "value": "COMPONENT_AR10_HOLO"
+                }							
+            ]
+        }
+    },
+    "WEAPON_M16A2": {
+        "label": "Colt M16A2",
+        "spawnammo": 250,
+        "attachments": {
+            "Grip": [
+                {
+                    "label": "Grip",
+                    "value": "COMPONENT_M16A2_GRIP"
+                }							
+            ],	
+            "Mira": [		
+                {
+                    "label": "Holografica",
+                    "value": "COMPONENT_M16A2_HOLO"
+                }							
+            ]
+        }
+    },
+    "WEAPON_M1919": {
+        "label": "Ponto 30",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_R870": {
+        "label": "Remington 870",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_G18": {
+        "label": "Glock-18",
+        "spawnammo": 2000,
+        "attachments": {
+            "Silenciadores": [
+                {
+                    "label": "Silenciador",
+                    "value": "COMPONENT_G18_SILENCIADOR"
+                }									
+            ]		
+        }
+    },
+    "WEAPON_G3": {
+        "label": "HK G3",
+        "spawnammo": 2000,
+        "attachments": {
+            "Luneta": [
+                {
+                    "label": "Luneta",
+                    "value": "COMPONENT_G3_LUNETA"        
+                }									
+            ]		
+        }
+    },
+    "WEAPON_GRAJADA": {
+        "label": "Glock Rajada",
+        "spawnammo": 2000,
+        "attachments": {
+            "Carregadores": [
+                {
+                    "label": "17 Muni",
+                    "value": "GLOCKRAJADA_CARREGADOR_1"
+                },
+                {
+                    "label": "22 Muni",
+                    "value": "GLOCKRAJADA_CARREGADOR_2"
+                },
+                {
+                    "label": "30 Muni",
+                    "value": "GLOCKRAJADA_CARREGADOR_3"
+                },		
+                {
+                    "label": "50 Muni",
+                    "value": "GLOCKRAJADA_CARREGADOR_4"
+                }																			
+            ]		
+        }
+    },
+    "WEAPON_MK47FM": {
+        "label": "MK47FM",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_BARRET": {
+        "label": "Barret M82",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_ARAD": {
+        "label": "IWI Arad",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_CZ75": {
+        "label": "CZ-75",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_416D": {
+        "label": "HK-416D",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_KATANA": {
+        "label": "Katana",
+        "spawnammo": 250,
+        "attachments": {}
+    },
+    "WEAPON_AK47": {
+        "label": "AK47",
+        "spawnammo": 250,
+        "attachments": {
+            "Carregadores": [		
+                {
+                    "label": "Tambor de 75",
+                    "value": "COMPONENT_AK_TAMBOR"
+                },
+                {
+                    "label": "30",
+                    "value": "COMPONENT_AK_CARREGADOR"
+                }								
+            ],
+            "Mira": [		
+                {
+                    "label": "reddot",
+                    "value": "COMPONENT_AT_SCOPE_MACRO"
+                }
+            ]
+        }
+    }, 
+    "WEAPON_HK416": {
+        "label": "HK416",
+        "spawnammo": 250,
+        "attachments": {
+            "Mira": [
+                {
+                    "label": "Padrão",
+                    "value": "COMPONENT_AT_SCOPE_MEDIUM"
+                }								
+            ],
+            "Grip": [
+                {
+                    "label": "Padrão",
+                    "value": "COMPONENT_AT_AR_AFGRIP"
+                }								
+            ],
+            "Silenciador": [
+                {
+                    "label": "Padrão",
+                    "value": "COMPONENT_AT_AR_SUPP_02"
+                }								
+            ]
+        }
+    },
+    "WEAPON_IA2": {
+        "label": "Imbel IA2",
+        "spawnammo": 250,
+        "attachments": {
+            "Lunetas": [
+                {
+                    "label": "Holográfica 1",
+                    "value": "COMPONENT_IA2_HOLO_01"
+                },	
+                {
+                    "label": "Red Dot 1",
+                    "value": "COMPONENT_IA2_REDDOT_01"
+                }									
+            ]
+        }
+    }    						
+}
