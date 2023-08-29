@@ -2,9 +2,7 @@ fx_version 'cerulean'
 games {'gta5'}
 description 'CamaleaoMods! https://discord.gg/dhufVUekb3'
 
-files{
-	'configs/**/*.meta',
-}
+files {'configs/**/*.meta'}
 
 data_file 'WEAPONCOMPONENTSINFO_FILE' 'configs/**/weaponcomponents.meta'
 data_file 'WEAPON_METADATA_FILE' 'configs/**/weaponarchetypes.meta'
